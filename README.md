@@ -20,7 +20,7 @@ The test plan includes four primary types of performance tests:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - **Apache JMeter 5.6.3**
 - **Blazedemo.com** as the test target
 
