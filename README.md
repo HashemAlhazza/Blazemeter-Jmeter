@@ -1,6 +1,6 @@
 # Blazedemo Performance Testing with JMeter
 
-## 📌 Overview
+## Overview
 This project is a complete performance testing suite for [Blazedemo.com](https://blazedemo.com), created using **Apache JMeter 5.6.3**.  
 The goal is to simulate real-world user behavior and evaluate the system's performance, stability, and scalability under different load conditions.
 
@@ -12,7 +12,7 @@ The test plan includes four primary types of performance tests:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 - Measure response times, throughput, and error rates.
 - Identify bottlenecks, anomalies, and potential points of failure.
 - Simulate realistic traffic patterns and user actions.
@@ -26,7 +26,7 @@ The test plan includes four primary types of performance tests:
 
 ---
 
-## 📂 Test Structure
+## Test Structure
 Each test type has its own **Thread Group** in JMeter, with independent controllers, samplers, and assertions.
 
 ### 1. Load Test
@@ -61,7 +61,7 @@ Each test type has its own **Thread Group** in JMeter, with independent controll
 
 ---
 
-## 📊 Metrics Collected
+## Metrics Collected
 | Metric                     | Unit          |
 |----------------------------|---------------|
 | Average Response Time      | seconds       |
@@ -71,7 +71,7 @@ Each test type has its own **Thread Group** in JMeter, with independent controll
 
 ---
 
-## 📄 How to Run
+## How to Run
 1. Install [Apache JMeter](https://jmeter.apache.org/) (version 5.6.3 or later).
 2. Open the provided `.jmx` file in JMeter.
 3. Configure listeners to capture and visualize results.
@@ -79,17 +79,12 @@ Each test type has its own **Thread Group** in JMeter, with independent controll
 
 ---
 
-## 📈 Results
+## Results
 Each test execution records performance metrics for different user actions and phases.  
 The detailed results are available in the `Performance Test Execution Sheet` included in this repository.
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Hashem Al-Hazzaa**  
-Automotive Embedded Software Engineer & Performance Testing Enthusiast
-
----
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+https://www.linkedin.com/in/hashem-al-hazzaa-032183183/
